@@ -1,0 +1,109 @@
+Class A extends B  --> Valid syntax.
+Class A extends A  ---> Invalid syntax.(Cyclic class).
+Class A extends B, c  --> Invalid syntax.
+
+
+Class A implements interface1  - --> Valid syntax.
+Class A implements interface1, interface2 ----> Valid syntax.
+Interface1 extends Interface2 --> Valid syntax.
+interface1 extends interface1, interface2  ----> Valid syntax.
+interface1 extends interface1  ----> Invalid syntax(Cyclic Interface).
+
+
+interface extends class A  ---> Invalid syntax.
+
+
+(extends keyword must be first keyword.)
+Class A extends B implements interface1, interface2 ----> Valid syntax.
+Class A implements interface1, interface2 extends B ---> Invalid syntax.
+
+Nested Variables:
+------------------------
+1. It is Possible to Use nested interface (Example 3).
+2. It is possible to use nested interface inside the class also.(Example 4)
+
+
+interface Variables:
+--------------------------
+1. It is Possible to declare variables inside the Interface, by default variables will be public static final.
+
+Adapter Class:
+-------------------
+defn: The adapter class contains empty implementation of interface methods.
+Adapter class is introduced because James gobling faced issues in interface:
+1. Whenever we declare interface and suppose it contain 10 methods and we need only 2 methods out of it,
+   the class which implements interface  has forcefully need to implement all the 10 methods of interface class
+   even we need of only 2 methods out of that.
+2. So to overcome this problem James goblin introduce concept 'Adapter class'. As adapter class contains
+	empty implementation of interface methods.
+
+
+Marker interface:
+-----------------------------
+Defn: The interface without methods but your class must acquire some capabilities whenever we 
+	  are implementing that interface 
+are called marker interface.
+Below are some example of predefine marker interface.
+Type in cmd: 1) javap java.io.Serializable.
+			 2) javap java.util.RandomAccess
+			 3) javap java.lang.cloneable
+After running above lines in cmd it will show interface with no methods.			 
+The class is acquiring properties of interface having no methods, the properties is provided by JVM.
+			 
+Cloneable interface:
+---------------------
+defn: It is used when we want to use previous values even after that we have changed values many times.
+       Refer(Example 7 cloneable interface).
+		Cloning is used real time example "When we purchase a laptop we already having software installed in laptop,
+		still we get CD having copy of sme software".
+Note: If we want to perfore cloning process our class must implement cloneable interface.
+
+
+
+//For Interface also It is Possible to Apply inheritance concept by using extends keywork
+
+					/*Interface Vs Inhertance:
+					-------------------------
+					interface intrfce1
+					{
+						void m1()
+					}
+					
+					interface intrfce2 extends intrfce1
+					{
+						void m1()
+					}
+					
+					interface intrfce3 extends intrfce2
+					{
+						void m1()
+					}
+					
+					class Test implements intrfce1
+					{ override 1 method
+					}
+					
+					class Test implements intrfce2
+					{ override 2 method
+					}
+					
+					class Test implements intrfce3
+					{ override 3 method
+					}
+					
+	IMP: One class can extend one class at a time, but interface can extend multiple interface at a time
+	
+					interface it1{
+					void m1();
+					}
+					interface it2{
+					void m2();
+					}
+					interface it3() extends it1,it2{
+					void m3();
+					}
+					
+					class Test implements it3{
+					override 3 methods.
+					}
+					*/

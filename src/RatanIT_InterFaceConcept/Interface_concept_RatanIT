@@ -1,0 +1,11 @@
+* Interface is used to declare functionality of the project but abstract class is a place where you declare normal method as well as 
+abstract method.
+
+E.g:
+----
+Interface it1 {   // By default interface is abstract and object is not possible in interfaces.
+
+	void m1(); // by default interface methods are public and abstract no need to declare abstract keyword like abstract method.
+}
+
+* Compiler will generate .class for Interface.
