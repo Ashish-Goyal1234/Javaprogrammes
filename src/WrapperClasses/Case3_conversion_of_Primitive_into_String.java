@@ -17,7 +17,6 @@ public class Case3_conversion_of_Primitive_into_String {
        int a1 = Integer.parseInt(str1);
        float f = Float.parseFloat(str2);
        System.out.println(a1+f);
-       
     }
 
 }
