@@ -8,6 +8,8 @@
 	<classpathentry kind="src" path="ModifiersInJava"/>
 	<classpathentry kind="src" path="Java.IoPackage"/>
 	<classpathentry kind="src" path="AbstractClasses"/>
+	<classpathentry kind="src" path="HackerRankProgrammes"/>
+	<classpathentry kind="src" path="PatternProgrammes"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_181"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
