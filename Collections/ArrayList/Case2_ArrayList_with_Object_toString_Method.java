@@ -1,8 +1,7 @@
 
-package ArrayList;
+package arrayList;
 
 import java.util.ArrayList;
-import com.sun.org.apache.bcel.internal.generic.NEW;
 /*
  1. Below Points conclude Arrays are type safe but collections are not type safe.
  2. Arrays are type safe because:

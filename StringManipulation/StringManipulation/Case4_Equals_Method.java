@@ -1,6 +1,5 @@
 package StringManipulation;
 
-
 public class Case4_Equals_Method {
     
     Case4_Equals_Method(String str) {

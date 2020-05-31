@@ -1,6 +1,5 @@
 package DifferentTypesOferror;
 
-
 public class StackOverFlowError {
 
     void m1(){

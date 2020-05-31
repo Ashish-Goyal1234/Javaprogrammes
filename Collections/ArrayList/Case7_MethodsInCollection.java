@@ -1,6 +1,7 @@
-package ArrayList;
+package arrayList;
 
 import java.util.ArrayList;
+import arrayList.Employee;
 
 public class Case7_MethodsInCollection {
 

@@ -1,6 +1,5 @@
 package ExceptionHandling;
 
-
 public class Case15_JVMInternallyUsesPrintStackTrace {
 
     // JVM internall uses printStackTrace() if user dont assign any exception handler.

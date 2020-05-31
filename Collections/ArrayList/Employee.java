@@ -1,9 +1,9 @@
-package ArrayList;
+package arrayList;
 
 
 public class Employee {
-    int eid;
-    String ename;
+    public int eid;
+    public String ename;
     public Employee(int eid, String ename) {
         super();
         this.eid = eid;

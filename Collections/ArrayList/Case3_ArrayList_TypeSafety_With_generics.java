@@ -1,6 +1,7 @@
-package ArrayList;
+package arrayList;
 
 import java.util.ArrayList;
+import arrayList.Employee;
 
 // To provide type safety to collection use generics.
 // collection allows hetrogeneious data but not recommended, then for every object we need to checktypacasting and type checking.

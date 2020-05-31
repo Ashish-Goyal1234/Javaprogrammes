@@ -1,7 +1,5 @@
 package WrapperClasses;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils.Comparison;
-
 public class Case6_Equal_And_DoubleEqulaopera_Wrapperclasses {
 
     public static void main(String[] args) {

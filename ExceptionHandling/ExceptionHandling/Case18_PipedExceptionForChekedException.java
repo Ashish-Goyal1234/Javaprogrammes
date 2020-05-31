@@ -1,6 +1,5 @@
 package ExceptionHandling;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class Case18_PipedExceptionForChekedException {
