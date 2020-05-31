@@ -8,9 +8,14 @@
 	<classpathentry kind="src" path="ModifiersInJava"/>
 	<classpathentry kind="src" path="Java.IoPackage"/>
 	<classpathentry kind="src" path="AbstractClasses"/>
+<<<<<<< HEAD
 	<classpathentry kind="src" path="MultiThreading"/>
 	<classpathentry kind="src" path="Nested Classes"/>
 	<classpathentry kind="src" path="Collections"/>
+=======
+	<classpathentry kind="src" path="HackerRankProgrammes"/>
+	<classpathentry kind="src" path="PatternProgrammes"/>
+>>>>>>> dev
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_181"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
