@@ -31,5 +31,4 @@ public class Case4_toStringMethod {
         // System.out.println(a.toString());  // Not allowed shows error cannot invoke primitive type int.
         
     }
-
 }
