@@ -23,6 +23,12 @@ public class Case3_Mutable_Vs_immutable {
          String s2 = "Ashish";
          s2 = s2.concat("soft"); // object is created internally for s2
          System.out.println(s2);  //O/p will be Ashishsoft beacuse above new object is creating internally/
+         
+         String k = "Ashish Goyal";
+         k = "Ashish";
+         System.out.println(k); // o/p will be Ashish
+                 
+         
     }
 
 }
