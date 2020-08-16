@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 public class Case6_Adding_One_Collection_Into_Another {
 
+    /*
+     * 1. Adding one collection into another we are having 2 approches :
+     */
     public static void main(String[] args) {
         //Approach 1 : constructor : Adding only one collection into another.
             ArrayList<Integer> a1 = new ArrayList<Integer>();

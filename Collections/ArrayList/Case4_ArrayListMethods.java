@@ -1,7 +1,9 @@
 package arrayList;
 
 import java.util.ArrayList;
-
+/*
+ * There are some arrylist methods to make operations easy
+ */
 public class Case4_ArrayListMethods {
 
     public static void main(String[] args) {

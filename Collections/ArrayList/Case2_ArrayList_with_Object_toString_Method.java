@@ -7,7 +7,9 @@ import java.util.ArrayList;
  2. Arrays are type safe because:
      int[] : can holds only int data.
      float[] : can holds only float data, this is called type safety.
- 3. Collections are not type safe because ArrayList contains differnt type of data;
+ 3. Collections are not type safe because ArrayList contains differnt type of data, because of this we face problems
+                 1. Type checking
+                 2. Type casting.
  4. There are some problems as collections is not type safe:
      1. Type checking
      2. Type casting
@@ -40,7 +42,7 @@ public class Case2_ArrayList_with_Object_toString_Method {
             4. Now Object interally contains differnt object, so we need to check the type of object.
             5. To check the type of object we have instanceOf operator.
          */
-        for (Object o : al) {
+        for (Object o : al) {  // object class is used to hold all tyoes of data
             
             if(o instanceof Employee){
                 Employee e = (Employee) o;
