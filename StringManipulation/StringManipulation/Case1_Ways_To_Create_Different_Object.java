@@ -1,10 +1,14 @@
 package StringManipulation;
 
 public class Case1_Ways_To_Create_Different_Object {
-
+    /*
+   Two ways to create object in String 
+       1. Without using new Keyword : which stores data in "String Constant Memory" and it always check before creating new object wheneter already any object present having same value.
+       2. With using new Keyword     : In entire Java new creates a new Object.
+       3. Only String class internally overrides ".equals" method and perform content comparison. StringBuffer does not override equals().
+    */
 	public static void main(String[] args) {
-	
-	    // We have different ways to create String Object:
+
 	    String s1 = "Ashish";
 	    System.out.println(s1);
 	    

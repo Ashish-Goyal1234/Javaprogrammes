@@ -15,7 +15,7 @@ public class Case9_StringBufferMethods {
         
         StringBuffer sb4 = new StringBuffer("ratan");
         System.out.println(sb4.append("soft"));
-        
+
         StringBuffer sb5 = new StringBuffer("ratan");
         System.out.println(sb5.insert(0, "hi "));
     

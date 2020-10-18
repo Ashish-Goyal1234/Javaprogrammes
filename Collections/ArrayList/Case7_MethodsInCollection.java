@@ -24,6 +24,8 @@ public class Case7_MethodsInCollection {
         a2.remove(e1);
         System.out.println(a2.contains(e1));  // Will return fails becaue we have remove e1 object.
         System.out.println(a2.containsAll(a1)); // will return failse because we have removed e1 object.
+        
+       
     
         
         a2.removeAll(a1);

@@ -27,8 +27,5 @@ public class Case3_Mutable_Vs_immutable {
          String k = "Ashish Goyal";
          k = "Ashish";
          System.out.println(k); // o/p will be Ashish
-                 
-         
     }
-
 }

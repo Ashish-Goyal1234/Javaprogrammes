@@ -35,6 +35,7 @@ public class Case4_ArrayListMethods {
                 al.clear(); // used to clear all the data.
                 System.out.println(al);
                 System.out.println(al.isEmpty());
+               
     }
     
 

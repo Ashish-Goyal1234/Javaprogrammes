@@ -25,6 +25,7 @@
 	<classpathentry kind="src" path="5. Static Block"/>
 	<classpathentry kind="src" path="CoreJavaAssignmentByRatan"/>
 	<classpathentry kind="src" path="7.Polymorphism"/>
+	<classpathentry kind="src" path="Arrays Concept"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
