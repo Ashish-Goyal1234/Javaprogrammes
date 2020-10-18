@@ -23,6 +23,7 @@ public class ArrayListMethodsList {
                 p.add(new Product(3, "Book", 100));
                 Product ob = new Product(11, "Paper",20);
                 p.add(ob);
+          p.get
                 
                 ArrayList<Product> p1 = new ArrayList<Product>();
                 p1.add(new Product(110, "TV", 50000));
