@@ -2,11 +2,15 @@ package StringManipulation;
 
 
 public class Case3_Mutable_Vs_immutable {
-
+        /*
+         *    Just Remember :
+         *     1.  Mutable -  Changable   (StringBuffer)
+         *      2. Immutable - not changable. (String)
+         */
     public static void main(String[] args) {
         //String is  Immutable so Modifications are not allowed for object created,
         String s ="Ashish";
-                s.concat("soft");
+                s.concat("soft");      
                 System.out.println(s);  //O/p will be "Ashish"
                 
          //String is mutable so modifications are allowed for objects created.      

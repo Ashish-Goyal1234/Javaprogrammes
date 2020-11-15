@@ -9,6 +9,15 @@ public class Case1_Ways_To_Create_Different_Object {
     */
 	public static void main(String[] args) {
 
+	    // By Durga
+	  //  String s = new String();   // Empty String obj
+	    // String s = new String("String literals");
+	//    String s1 = new String(StringBuffer sb);
+        //    String s2 = new String(StringBuilder sb);
+	 //   String s3 = new string(char[] ch);
+	 //   String s4 = new String(byte[] b);
+	    
+	    
 	    String s1 = "Ashish";
 	    System.out.println(s1);
 	    

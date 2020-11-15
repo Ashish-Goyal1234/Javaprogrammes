@@ -26,7 +26,9 @@ public class Case2String_VS_StringBuffer {
         System.out.println(s1.equals(s3));   // true  : because only String class internally overrides ".equals()" from object class and perform content comparison.
         
 System.out.println("********************StringBuffer***********************");
-
+// Default initial capacity of StringBuffer is "16".
+//  New Capacity will be asses as new capacity = (Current capacity + 1)*2;
+//                                                                        = (16+1)*2;
         StringBuffer sb1 = new StringBuffer("ratan");
         StringBuffer sb2 = new StringBuffer("anu");      
         StringBuffer sb3 = new StringBuffer("ratan");

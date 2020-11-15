@@ -32,7 +32,7 @@ public class Case7_MethodsInCollection {
         
        // System.out.println(a2);
         
-         a2.retainAll(a1); 
+         a2.retainAll(a1);    // gives all value from a1
          
         for(Employee e : a2){
             System.out.println(e.eid + " " + e.ename);
