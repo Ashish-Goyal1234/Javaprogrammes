@@ -32,9 +32,6 @@ public class Case6_RemoveDataFromarrayListwithcondition {
         
       ArrayList<Integer> marksList = new ArrayList<Integer>(Arrays.asList(1,2,2,1,3,4,5,6,1,8,9,2,3,5,10,1,4,5));
      List<Integer> marksListUnique =  marksList.stream().distinct().collect(Collectors.toList());
-     System.out.println(marksListUnique);
-
-      
-      
+     System.out.println(marksListUnique);      
         }
 }

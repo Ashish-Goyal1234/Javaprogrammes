@@ -14,5 +14,4 @@ public class Prog1_ReverseAStringByStringBuffer {
         System.out.println(s1);
         sc.close();
     }
-
 }

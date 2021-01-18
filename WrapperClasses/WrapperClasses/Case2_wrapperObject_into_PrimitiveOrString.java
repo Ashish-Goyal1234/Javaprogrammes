@@ -24,8 +24,6 @@ public class Case2_wrapperObject_into_PrimitiveOrString {
               String s2 = i2.toString();
               System.out.println("Converted value in String format :" + s1);
               
-              System.out.println("Concatenating 2 string value : " + s1+s2);
-              
+              System.out.println("Concatenating 2 string value : " + s1+s2);         
     }
-
 }

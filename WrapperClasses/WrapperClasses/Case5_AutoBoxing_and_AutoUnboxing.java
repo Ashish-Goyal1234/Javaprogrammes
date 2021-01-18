@@ -15,14 +15,14 @@ public class Case5_AutoBoxing_and_AutoUnboxing {
         System.out.println(x);
         
         // Java 1.4 : no Autoboxing
-        ArrayList a1 = new ArrayList();
+        ArrayList<Object> a1 = new ArrayList<Object>();
         a1.add(new Integer(10));
         a1.add(new Double(10.5));
         a1.add(new Character('c'));
         System.out.println(a1);
         
         // Java 1.5 : with AutoBoxing
-        ArrayList a = new ArrayList();
+        ArrayList<Object> a = new ArrayList<Object>();
         a.add(10);   //internally uses valueOf(). 
         a.add(10.5);
         a.add('c');

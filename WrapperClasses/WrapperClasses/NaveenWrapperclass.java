@@ -18,7 +18,10 @@ public class NaveenWrapperclass {
         System.out.println("Output for d+20 with wrapper class :\t"+ (d1+20));
         
         //String to chanracter conversion
-        
+        char[] ch = x.toCharArray();
+        for(char c : ch){
+            System.out.println("String to char array :" + c);
+        }
         
         //String to boolean conversion
         String k = "true";

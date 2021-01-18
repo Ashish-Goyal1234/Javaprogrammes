@@ -1,15 +1,19 @@
 package InterviewProgrammes;
 
+import java.util.HashMap;
 
 public class Prog9_WAP_to_Find_Factorial_Of_Num {
 
-    public static void main(String[] args) {
-            int num = 10;
-            int factorial = 1;
-            for(int i = 1;i<=num;i++) {
-                factorial = factorial * i;
-            }
-            System.out.println("Factorial of a number is : " + factorial );
+    private static HashMap<String, String> getCredentials() {
+        HashMap<String, String> credentials = new HashMap<String, String>();
+        credentials.put("Customers", "Ashish : Test@123");
+        credentials.put("admin", "admin : pass@123");
+        return credentials;
     }
-
+   
+    public static void main(String[] args) {
+          String details  = getCredentials().get("Customers");
+          System.out.println(details.split(":")[0]);
+          System.out.println(details.split(":")[1]);
+        }
 }
