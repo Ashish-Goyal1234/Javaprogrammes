@@ -5,14 +5,14 @@
          1  2 
          1 
  */
-package Programmes;
 
+package Programmes;
 
 public class Case20 {
 
     public static void main(String[] args) {
-        for(int i =5;i>=1;i--){
-            for(int j=1;j<=i;j++){
+        for (int i = 5; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print(" " + j + " ");
             }
             System.out.println();
