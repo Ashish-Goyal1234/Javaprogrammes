@@ -4,7 +4,7 @@
  */
 package ExceptionHandlingOverridingRules;
 
-    class parent{
+class parent{
       void marraige(){                         //overriden method
           
       }

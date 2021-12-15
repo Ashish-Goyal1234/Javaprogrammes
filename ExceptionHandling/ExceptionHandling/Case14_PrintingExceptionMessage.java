@@ -1,6 +1,5 @@
 package ExceptionHandling;
 
-
 public class Case14_PrintingExceptionMessage {
 
     void m3(){

@@ -1,6 +1,5 @@
 package ExceptionHandling;
 
-
 public class Case16_ExceptionIsPropogatedToCallerMethod {
         // This concept is called Exception propogation.
     // Exception which is occured in m3() is handled in main method.

@@ -26,5 +26,4 @@ public class case7_equals_compareTO_method {
     System.out.println("ratan".compareToIgnoreCase("RATAN")); // 0 because we have used comparesIgnoreCase()
     
     }
-
 }

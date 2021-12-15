@@ -3,6 +3,7 @@ package Interface_Concept;
 interface intrface   //abstract
 {
 	void m1();  // public abstract
+	//private void m1();   // not allowed gives error message.
 	void m2();
 	void m3();
 }

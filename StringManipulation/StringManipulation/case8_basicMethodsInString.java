@@ -1,6 +1,5 @@
 package StringManipulation;
 
-
 public class case8_basicMethodsInString {
 
     public static void main(String[] args) {
@@ -9,6 +8,10 @@ public class case8_basicMethodsInString {
         System.out.println(s1.indexOf('a')); // 1
         System.out.println(s1.lastIndexOf('a')); // 3
         System.out.println(s1.length());  //
+        char[] name = s1.toCharArray();
+        for(char names : name) {
+            System.out.println("Coversion string to char " + names);
+        }
         
         String s2 = "hi sir how r u";
         System.out.println(s2.startsWith("hi")); //true
@@ -37,5 +40,4 @@ public class case8_basicMethodsInString {
             System.out.println(ss);
         }
     }
-
 }

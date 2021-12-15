@@ -1,6 +1,5 @@
 package WrapperClasses;
 
-
 public class Case4_toStringMethod {
 
     public static void main(String[] args) {
